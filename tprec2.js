@@ -94,20 +94,28 @@ function personaje2(py, somX, naX, braX, armaX, armaX2){
 }
 
 function movimiento() {    //movimiento de los pjs
-  if (keyIsDown(87)) {    //tecla w
+  if (keyIsDown(87)) {     //tecla w
+    if (posY1 > 0) {          //verifica que no pase el margen
     posY1 -= velocidad;
+    }
   }
   
   if (keyIsDown(83)) {    //tecla s
+   if (posY1 < 440){
     posY1 += velocidad;
+   }
   }
   
-  if (keyIsDown(UP_ARROW)) {    //flecha arriba
+  if (keyIsDown(UP_ARROW)) {  //flecha arriba
+    if (posY2 > 0){
     posY2 -= velocidad;
+  }
   }
   
   if (keyIsDown(DOWN_ARROW)) {    //flecha abajo
+    if (posY2 < 440){
     posY2 += velocidad;
+    }
   }
 }
 
