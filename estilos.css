@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+h1 {
+    color:rgb(255, 247, 204);
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 25px;
+}
+
+p {
+    color:rgb(118, 146, 201);
+    font-family: 'Afacad', sans-serif;
+    font-size: 20px;
+}
+
+p.subtitulo {
+    color: rgb(118, 146, 201);
+    font-size: 35px;
+}
+
+label {
+    color:rgb(255, 247, 204);
+    font-family: 'Afacad', sans-serif;
+    font-size: 20px;
+}
+
+label.paper-btn {
+    font-family: 'Afacad', sans-serif;
+    color: rgb(0, 19, 56);
+    background-color: rgb(255, 247, 204);
+    border-color: rgb(7, 82, 144);
+}
+
+body {
+    background-image: url(img/Cielo.jpg);
+    background-size: auto;
+}
+
+.centrar {
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: auto;
+}
+
+.tam {
+    margin-top: 30px;
+    width: 600px;
+    height: auto;
+}
+
+.paper.container{
+    border:none;
+    background-image: linear-gradient(to bottom, #01071f, #0b173e);
+}
+
+.modal-body{
+    background-color: rgb(255, 247, 204);
+}
+
+.tabs input:checked+label{
+    color:rgba(255, 250, 221, 0.705)
+}
+

@@ -1,0 +1,96 @@
+<!-- 
+Tp final - etapa 2
+Mathilda Esteban - 93509/6 
+Loreley Joray - 77302/9
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- css de papercss -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <!-- mi css -->
+    <link      
+      rel="stylesheet"
+      href="estilos.css"
+    />
+    <title>La última noche del mundo</title>
+  </head>
+  <body>
+    <div class="paper container">
+      <h1>La última noche del mundo</h1>
+      <p class="subtitulo">Trabajo práctico final de Tecnologías Web</p>
+
+      <div class="row flex-spaces tabs">
+        <input id="tab1" type="radio" name="tabs" checked>
+        <label for="tab1">Inicio</label>
+      
+        <input id="tab2" type="radio" name="tabs">
+        <label for="tab2">Proceso</label>
+      
+        <input id="tab3" type="radio" name="tabs">
+        <label for="tab3">Información</label>
+      
+      
+        <div class="content" id="content1">
+          <h2>
+            <img src="tpfinal/data/elemento3.png" alt="taza de cafe" class="no-responsive no-border">
+            ¿De que trata?
+          </h2> 
+          <p>
+            Es una aventura gráfica basada en el cuento de <strong> Ray Bradbury "La última noche del mundo"</strong>, que dentro incluye un juego en el que debes recolectar todos los objetos de la casa antes de que se te acabe el tiempo. El relato narra la conversación de una pareja que sabe que el mundo se acabará esa noche. Ellos hablan sobre el sueño que tuvieron, en el que una voz les anunciaba el fin, y que descubren que fue compartido por todos. <strong>Ahora te toca a vos averiguar como terminará esta historia!</strong>
+          </p>
+
+            <div class="row flex-spaces child-borders">
+              <label class="paper-btn margin" for="modal-1">¡Jugar!</label>
+            </div>
+            <input class="modal-state" id="modal-1" type="checkbox">
+            <div class="modal">
+              <label class="modal-bg" for="modal-1"></label>
+              <div class="modal-body">
+                <iframe src="tpfinal/index.html" frameborder = "0" width="510" height="510"></iframe>
+              </div>
+          
+        </div>
+        </div>
+        <div class="content" id="content2">
+          <div>
+            <h2>
+              <img src="tpfinal/data/elemento8.png" alt="libro" class="no-responsive no-border">
+              ¿Como fue el proceso de nuestro juego?
+            </h2>
+            <p>
+              Previo a programar la aventura gráfica realizamos 3 diagramas para ayudar a organizarnos el flujo de todas las pantallas que ibamos a utilizar y tambien las posibles clases que podramos necesitar a la hora de programar. Los gráficos son los siguientes: 
+            </p>
+          </div>
+          <div class="centrar" >
+             <img src="img/1.jpg" alt="Diagrama de pantallas de la aventura gráfica" class="tam no-responsive no-border">
+             <img src="img/2.jpg" alt="Diagrama 1 de opciones de clases para el programa" class="tam no-responsive no-border">
+             <img src="img/3.jpg" alt="Diagrama 2 de opciones de clases para el programa" class="tam no-responsive no-border">
+          </div>
+        </div>
+
+        <div class="content" id="content3">
+          <h2>
+            <img src="tpfinal/data/per3.png" alt="personaje" class="no-responsive no-border">
+            Sobre nosotros
+          </h2>
+          <p>
+            Este juego y página web fue creada por Mathilda Esteban y Loreley Joray como trabajo final de la materia <strong>Tecnología multimedial 1</strong> de la carrera de Diseño multimedial(FDA - UNLP).
+          </p>
+          
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </body>
+</html>
